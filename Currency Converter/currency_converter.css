@@ -1,0 +1,79 @@
+body {
+background-image: url(https://images.pexels.com/photos/5980802/pexels-photo-5980802.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260), url(https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80);
+background-position: right, left ;
+background-repeat: repeat-y, repeat-y;
+background-size: 200px, 200px;
+max-width: 15%, 15%;
+}
+
+h1{
+  text-align: center;
+  color: white;
+}
+
+h2{
+  text-align: center;
+}
+
+
+.title_background{
+  background-image: url(https://cutewallpaper.org/21/copyright-free-background-images/No-Copyright-Copyright-Free-Videos-Motion-Graphics-Background-Animation-Video-Clips-Download.jpg);
+  background-blend-mode: darken;
+  max-height: 50px;
+  background-blend-mode: luminosity;
+  background-size: 100px;
+  background-position: center;
+  max-width: 70%;
+  margin-left: auto;
+  margin-right: auto; 
+}
+
+.Currencies{
+  border-bottom-style: double;
+  border: black, 10px;
+  position: relative;
+  image-orientation: center;
+  text-align: center;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+#currency{
+  border-style: solid;
+  text-align: center;
+  display: flex;
+  opacity: 50%;
+}
+
+#amount, .input, #button{
+  display: flex;
+  max-width: 100%;
+  flex: 50%;
+  text-align: center;
+  margin-left: 37.5%;
+}
+  
+
+.Display{
+  text-align:center;
+}
+
+.Display1{
+  text-align: left;
+  padding-right: 95px;
+  border: solid;
+}
+
+.Display2{
+  text-align: right;
+  padding-left: 95px;
+  border: solid;
+}
+
+.Display1, .Display2{
+  display: inline;
+}
+
+#result{
+  text-align: center;
+}

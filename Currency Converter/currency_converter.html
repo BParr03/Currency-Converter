@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="currency_converter.css" rel="stylesheet" type="text/css">
+  <title>Currency converter with HTML &amp; JavaScript</title>
+  <link rel="stylesheet" href="currency_converter.css"  />
+</head>
+
+<body>
+  <div class="title_background">
+    <h1>Currency Converter</h1>
+  </div>
+  <h2>Here are the currencies that are available to be compared on this website:</h2>
+
+  <div class="Currencies">
+    <ul>
+      <li>GBP(£)</li>
+      <li>USD(US$)</li>
+      <li>EUR(€)</li>
+      <li>JPY(¥)</li>
+      <li>AUD(A$)</li>
+      <li>CAD(C$)</li>
+    </ul>
+  </div>
+
+  <h2> Select the currencies you would like to convert/compare </h2>
+
+  <form>
+    <input id="amount" type="number" value="1" />
+    <select id="primary" class="input"></select>
+    <select id="secondary" class="input"></select>
+    <input id="button" type="button" value="Enter" />
+  </form>
+  <p id="result" style="display:none;">
+    <span id="txt-primary"></span>
+    <span id="txt-secondary"></span>
+  </p>
+
+<script src="currency_converter.js"></script>
+</body>
+</html>
